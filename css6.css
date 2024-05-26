@@ -1,0 +1,104 @@
+* {
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: 'Calibri', sans-serif;
+
+}
+
+.scena {
+width: 100%;
+height: 100%;
+min-height: 450рх;
+position: relative;
+top: 0;
+left: 0;
+background-color: white;
+transform: translate3d(0, 0, 0);
+}
+
+.gorod2 {
+animation: animation_fg linear 95s infinite both; 
+background: url(https://raw.githack.com/OlgaShults/one/main/%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%20%D0%B8%D1%82%D0%BE%D0%B3.png) 0 100% repeat-x;
+z-index: 1;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: auto 423px;
+}
+
+.nebo1 {
+animation: animation_fg linear 120s infinite both; 
+background: url(https://raw.githack.com/OlgaShults/one/main/%D0%BD%D0%B5%D0%B1%D0%BE%20%D0%B8%D1%82%D0%BE%D0%B3.png) 0 100% repeat-x;
+z-index: 1;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: auto 423px;
+}
+
+.samolet3 {
+animation: animation_fg linear 65s infinite both; 
+background: url(https://raw.githack.com/OlgaShults/one/main/%D0%A1%D0%B0%D0%BC%D0%BE%D0%BB%D0%B5%D1%82%20%D0%B8%D1%82%D0%BE%D0%B3.png) 0 100% repeat-x;
+z-index: 1;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: auto 423px;
+}
+
+.oblako1 {
+background: url(https://raw.githack.com/OlgaShults/one/main/%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE%201.png) 0 100% no-repeat;
+z-index: 1;
+position: absolute;
+bottom: 100px;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: auto 75px;
+animation: animation_oblako1 linear 10s infinite both;
+}
+
+.oblako2 {
+background: url(https://raw.githack.com/OlgaShults/one/main/%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE%202.png) 0 100% no-repeat;
+z-index: 1;
+position: absolute;
+bottom: 100px;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: auto 75px;
+animation: animation_oblako2 linear 10s infinite both;
+}
+
+.oblako2 {
+animation: animation_oblako2 linear 15s infinite both;
+}
+
+@keyframes animation_fg {
+  0% {
+    background-position: 2765px 100%;
+  }
+  100% {
+    background-position: 550px 100%;
+  }
+}
+
+@keyframes animation_название класса ваших движущихся объектов {
+  0% {
+    background-position: -300px 100%;
+  }
+  100% {
+    background-position: 2000px 100%;
+  }
+}
